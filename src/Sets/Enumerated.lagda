@@ -167,3 +167,12 @@ data name : Set where
 
 Numerical subscripts like ₁ or ₂ can be typed in Emacs as `\_1`,
 `\_2`, and so on.
+
+
+Exercises
+---------
+
+1. Redefine your sets `Answer` and `Direction` using syntactic abbreviation.
+
+1. Verify for yourself that different types can have the same name for
+   constructors.
