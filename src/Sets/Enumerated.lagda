@@ -44,9 +44,9 @@ Note that:
 
 -   The `Set` is the set of sets (a constant).
 
--   The ':' is pronounced "is a" or "type of", it has similar rule as '∈'
+-   The ':' is pronounced "is a" or "type of", it has similar role as '∈'
     in set theory.  We do not use the '∈' symbol because ':' and '∈' have
-    different meanings which will be discussed in details later.
+    different meanings which will be discussed in detail later.
 
 -   Indentation matters.
 
@@ -109,10 +109,11 @@ Special finite sets
 We can define finite sets with $n = 0, 1, 2, \ldots$ elements.
 
 The special case with $n = 0$ is the empty set:
-
 \begin{code}
 data ⊥ : Set where   -- Note that there is no constructor at all.
 \end{code}
+
+where `⊥` is typed in Emacs as `\bot`.
 
 The special case with $n = 1$ is the singleton set (a set with one element):
 
@@ -120,6 +121,8 @@ The special case with $n = 1$ is the singleton set (a set with one element):
 data ⊤ : Set where
   tt : ⊤
 \end{code}
+
+where `⊤` is typed in Emacs as `\top`.
 
 `⊥` and `⊤` have interesting interpretations as we will see.
 
@@ -162,5 +165,14 @@ data name : Set where
   elem₁ elem₂ : name
 \end{code}
 
+Numerical subscripts like ₁ or ₂ can be typed in Emacs as `\_1`,
+`\_2`, and so on.
 
 
+Exercises
+---------
+
+1. Redefine your sets `Answer` and `Direction` using syntactic abbreviation.
+
+1. Verify for yourself that different types can have the same name for
+   constructors.
