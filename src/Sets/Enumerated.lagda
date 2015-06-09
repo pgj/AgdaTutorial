@@ -44,9 +44,9 @@ Note that:
 
 -   The `Set` is the set of sets (a constant).
 
--   The ':' is pronounced "is a" or "type of", it has similar rule as '∈'
+-   The ':' is pronounced "is a" or "type of", it has similar role as '∈'
     in set theory.  We do not use the '∈' symbol because ':' and '∈' have
-    different meanings which will be discussed in details later.
+    different meanings which will be discussed in detail later.
 
 -   Indentation matters.
 
